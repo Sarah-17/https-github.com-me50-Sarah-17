@@ -1,0 +1,116 @@
+<!DOCTYPE>
+<html lang ="en">
+    
+    <head>
+        <title>Google Advanced Search</title>
+        <style>
+            .head{
+                font-family: Georgia;
+                font-size: 33px;
+                background-color: #f5f5ef;
+                height:50px;
+            }
+            .head2{
+                font-family: Arial ;
+                font-size: 20px;
+                padding:0px 0px 15px 40px;
+                height:40px;
+                color:red;
+                border-color: #E8E8E8;
+                border-style: solid;
+                border-width: 0px 0px 1px 0px;
+
+            }
+
+            input{
+                width:400%;
+                height:30px;
+                margin: 0px 0px 10px 10px;
+                border: 2px solid #f2f2f2;
+                border-shadow:2px;
+            }
+            
+            div p{
+                font-family: Arial ;
+                font-size: 16px;
+            }
+            .bt{
+                background-color: #398FFE;
+                border-color:#4682db;
+                color: white;
+                padding: 7px 7px 7px 7px;
+                font-size:12px;
+                font-family: Lucida Console;
+                width:160px;
+                
+            }
+            .bt:hover{
+                background-color: #227DFA;
+            }
+
+            span{
+                margin-left:-7px;
+            }
+
+            a{
+                color:black; 
+                float:right;
+                margin-top:14px;
+                font-size:15px;
+            }
+
+            #bt{
+                padding-right:600px;
+                float:right;
+            }
+
+            input:focus{
+                outline:none;
+            }
+
+            
+        </style>
+    </head>
+    <body>
+        <p class="head">
+            <span style="color:#227DFA">G</span>
+            <span style="color:red">o</span>
+            <span style="color:orange">o</span>
+            <span style="color:#227DFA">g</span>
+            <span style="color:green">l</span>
+            <span style="color:red">e</span> 
+            <a href="index.html"> Search </a>
+        </p>
+        <p class="head2">Advanced Search</p>
+
+        <div style="margin: 60px 0px 0px 40px;">
+            <p>
+                Find pages with...
+            </p>
+            <form action="https://google.com/search">
+            <table>
+                    <tr>
+                        <td>all these words:</td>
+                        <td><input type="text" name="q"></td>
+                    </tr>
+                    <tr>
+                        <td>this exact word or phrase:</td>
+                        <td><input type="text" name="q"></td>
+                    </tr>
+                    <tr>
+                        <td>any of these words:</td>
+                        <td><input type="text" name="q"></td>
+                    </tr>
+                    <tr>
+                        <td>none of these words:</td>
+                        <td><input type="text" name="q"></td>
+                    </tr>
+            </table>
+                    
+                       <p id="bt"> 
+                       <input class="bt" type="submit" value="Advanced Search"></td>
+                       </p>
+            </form>
+        </div>
+    </body>
+</html>
