@@ -31,17 +31,17 @@ input{
     border:1px solid transparent;
 }
 
-form button{
+form .btn{
     font-size:15px;
-    width:100x;
+    width:130px;
     height:35px;
     border-color:transparent;
-    background-color: transparent;
+    background-color: #F6F7F9 ;
     justify-content:center;
 }
 
-form button:hover{
-    border-color: white;
+form .btn:hover{
+    border-color:#D5DBDB;
     border-width:1px;
     border-radius:4px;
 }
